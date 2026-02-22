@@ -21,17 +21,17 @@ Includes a built-in browser UI for testing voices, adjusting playback speed, and
 ## 🚀 Installation
 
 1. **Clone the repository:**
-   
+   ```bash
    git clone [https://github.com/gtscoob/kitten-tts-st-bridge.git](https://github.com/gtscoob/kitten-tts-st-bridge.git)
    cd kitten-tts-st-bridge
 
 2. Create and activate a Python 3.11 virtual environment:
-   
+   ```bash
    py -3.11 -m venv venv
    .\venv\Scripts\Activate.ps1
 
 3. Install dependencies:
-   
+   ```bash
    pip install -r requirements.txt
 
 ---
@@ -40,19 +40,19 @@ Includes a built-in browser UI for testing voices, adjusting playback speed, and
 
 1. Start the Server:
 Run the following command in your activated virtual environment:
-
+   ```bash
    python server.py
    
    (Note: The server will download the model weights on the very first run. Please be patient!)
 
 2. Web UI Control Panel
-   
+   ```bash
    Open your browser and navigate to: http://localhost:5050 to access the testing dashboard.
 
 3. SillyTavern / Amica Integration
    
    To route your character dialogue through the Kitten TTS engine, use the following settings in your frontend:
-
+   ```bash
    Provider: OpenAI Compatible
 
    API URL: http://127.0.0.1:5050/v1
@@ -66,7 +66,7 @@ Run the following command in your activated virtual environment:
 
 ##📝 Punctuation & Pacing Guide
 Because Kitten TTS is a lightweight model without manual emotion sliders, it relies entirely on your text formatting to determine pacing and delivery.
-
+   ```bash
    . (Period): Drops the pitch at the end of a thought.
 
    , (Comma): Adds a short breath or slight pitch rise.
@@ -87,3 +87,4 @@ Because Kitten TTS is a lightweight model without manual emotion sliders, it rel
 
 
    
+
