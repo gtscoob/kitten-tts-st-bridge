@@ -4,6 +4,8 @@ A lightweight, local Python web server that wraps the Kitten TTS 0.8 Mini model 
 
 Includes a built-in browser UI for testing voices, adjusting playback speed, and downloading offline `.wav` files.
 
+![Web UI Preview](ui-preview.png)
+
 ## ✨ Features
 * **🪶 Ultra-Lightweight:** Runs entirely on your CPU. No dedicated GPU required.
 * **🔌 Plug-and-Play:** Mimics the OpenAI API structure, meaning no custom extensions are needed for SillyTavern or Amica to connect.
@@ -87,5 +89,6 @@ Because Kitten TTS is a lightweight model without manual emotion sliders, it rel
 
 
    
+
 
 
