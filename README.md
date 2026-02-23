@@ -1,5 +1,9 @@
 # Kitten TTS 0.8 - SillyTavern & Amica Bridge
 
+![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Local AI](https://img.shields.io/badge/AI-Local%20TTS-orange.svg)
+
 A lightweight, local Python web server that wraps the Kitten TTS 0.8 Mini model into an OpenAI-compatible API endpoint. Designed specifically for seamless text-to-speech integration with AI roleplay frontends like **SillyTavern** and **Amica**. 
 
 Includes a built-in browser UI for testing voices, adjusting playback speed, and downloading offline `.wav` files.
@@ -91,6 +95,7 @@ Because Kitten TTS is a lightweight model without manual emotion sliders, it rel
 
 
    
+
 
 
 
