@@ -63,6 +63,8 @@ Run the following command in your activated virtual environment:
 
    Ensure you update your Available Voices list in SillyTavern to exactly: Bella,Jasper,Luna,Bruno,Rosie,Hugo,Kiki,Leo
 
+   ![SILLY TAVERN](st-preview.png)
+
 ---
 
 
@@ -89,6 +91,7 @@ Because Kitten TTS is a lightweight model without manual emotion sliders, it rel
 
 
    
+
 
 
 
