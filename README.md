@@ -37,6 +37,7 @@ Includes a built-in browser UI for testing voices, adjusting playback speed, and
    .\venv\Scripts\Activate.ps1
 -
    If using cmd instead of powershell use-
+   ```bash
    py -3.11 -m venv venv
    venv\Scripts\activate.bat
 
@@ -95,6 +96,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
    
+
 
 
 
