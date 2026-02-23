@@ -43,7 +43,7 @@ Run the following command in your activated virtual environment:
    ```bash
    python server.py
    
-   (Note: The server will download the model weights on the very first run. Please be patient!)
+(Note: The server will download the model weights on the very first run. Please be patient!)
 
 2. Web UI Control Panel
    ```bash
@@ -52,7 +52,7 @@ Run the following command in your activated virtual environment:
 3. SillyTavern / Amica Integration
    
    To route your character dialogue through the Kitten TTS engine, use the following settings in your frontend:
-   ```bash
+
    Provider: OpenAI Compatible
 
    API URL: http://127.0.0.1:5050/v1
@@ -66,7 +66,7 @@ Run the following command in your activated virtual environment:
 
 ##📝 Punctuation & Pacing Guide
 Because Kitten TTS is a lightweight model without manual emotion sliders, it relies entirely on your text formatting to determine pacing and delivery.
-   ```bash
+
    . (Period): Drops the pitch at the end of a thought.
 
    , (Comma): Adds a short breath or slight pitch rise.
@@ -87,4 +87,5 @@ Because Kitten TTS is a lightweight model without manual emotion sliders, it rel
 
 
    
+
 
