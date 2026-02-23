@@ -72,29 +72,26 @@ Run the following command in your activated virtual environment:
 ---
 
 
-##📝 Punctuation & Pacing Guide
+## 📝 Punctuation & Pacing Guide
+
 Because Kitten TTS is a lightweight model without manual emotion sliders, it relies entirely on your text formatting to determine pacing and delivery.
 
-   . (Period): Drops the pitch at the end of a thought.
+* **`.` (Period):** Drops the pitch at the end of a thought.
+* **`,` (Comma):** Adds a short breath or slight pitch rise.
+* **`?` (Question Mark):** Forces a natural upward vocal inflection.
+* **`!` (Exclamation):** Increases energy, speed, and emphasis.
+* **`...` (Ellipsis):** Creates a noticeable hesitation or trailing thought.
+* **`—` (Em-dash):** Causes an abrupt stop or a sharp interruption.
 
-   , (Comma): Adds a short breath or slight pitch rise.
+---
 
-   ? (Question Mark): Forces a natural upward vocal inflection.
+## 📄 License
 
-   ! (Exclamation): Increases energy, speed, and emphasis.
-
-   ... (Ellipsis): Creates a noticeable hesitation or trailing thought.
-
-   — (Em-dash): Causes an abrupt stop or a sharp interruption.
-
-   ---
-
-  ##📄 License
-   Distributed under the MIT License. See LICENSE for more information.
-
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
    
+
 
 
 
