@@ -45,11 +45,11 @@ Includes a built-in browser UI for testing voices, adjusting playback speed, and
 ##🎮 Usage
 
 1. Start the Server:
-Run the following command in your activated virtual environment:
+* **Run the following command in your activated virtual environment:
    ```bash
    python server.py
    
-(Note: The server will download the model weights on the very first run. Please be patient!)
+* **(Note: The server will download the model weights on the very first run. Please be patient!)
 
 2. Web UI Control Panel
    ```bash
@@ -57,15 +57,15 @@ Run the following command in your activated virtual environment:
 
 3. SillyTavern / Amica Integration
    
-   To route your character dialogue through the Kitten TTS engine, use the following settings in your frontend:
+* **To route your character dialogue through the Kitten TTS engine, use the following settings in your frontend:
 
-   Provider: OpenAI Compatible
+* **Provider: OpenAI Compatible
 
-   API URL: http://127.0.0.1:5050/v1
+* **API URL: http://127.0.0.1:5050/v1
 
-   API Key: kitten (or any random string)
+* **API Key: kitten (or any random string)
 
-   Ensure you update your Available Voices list in SillyTavern to exactly: Bella,Jasper,Luna,Bruno,Rosie,Hugo,Kiki,Leo
+* **Ensure you update your Available Voices list in SillyTavern to exactly: Bella,Jasper,Luna,Bruno,Rosie,Hugo,Kiki,Leo
 
    ![SILLY TAVERN](st-preview.png)
 
@@ -91,6 +91,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
    
+
 
 
 
